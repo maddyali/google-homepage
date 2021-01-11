@@ -1,0 +1,1 @@
+Deconstruct the Google homepage and rebuild it using the HTML and CSS skills I've learned.

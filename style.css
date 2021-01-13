@@ -11,3 +11,15 @@ image {
  .search-button {
      text-align: center;
  }
+
+ ul {
+    list-style: none;
+        height: 50px;
+        display: block;
+        font-family: Helvetica;
+        color: green;
+ }
+
+ p {
+     color: rgb(60, 154, 48);
+ }

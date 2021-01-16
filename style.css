@@ -18,24 +18,47 @@
      text-align: center;
  }
 
-.topnav {
-   
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
- ul {
+nav ul {
     position: fixed;
     top: 0;
     width: 100%;
  }
 
- ul li {
+ nav ul li {
     list-style: none;
     float: left;
     display: block;
     padding: 8px;
-
  }
 
- ul li a {
-     text-decoration: none;
+ nav ul li a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+
+ footer ul li {
+    list-style: none;
+    float: left;
+    display: block;
+    padding: 8px;
+ }
+
+ footer ul li a {
+    text-decoration: none;
 }

@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a replica of the Google Search webpage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>Google</title>
     </head>
+
     <body>
+        <!--Navigation-->
+        <nav class="nav"> 
+            <div>
+                <ul class="nav_list">
+                    <li class="nav_item"><a class="nav_link" href="#home">About</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#store">Store</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav_list">
+                    <li class="nav_item--right"><a class="nav_link" href="#images">Images</a></li>
+                    <li class="nav_item--right"><a class="nav_link" href="#gmail">Gmail</a></li>
+                </ul>
+            </div>
+        </nav>
 
-<img class="img-google" src="img/Google-img.png" alt="Google logo">
+        <!--Main-->
 
-<form> 
-    <div>
-    <input type="text">
-    </div>
+        <!--Image-->
+        <img class="img-google" src="img/Google-img.png" alt="Google logo"> 
 
-    <div>
-    <br>
-<input class="search-button" type="submit" value="Google Search">
-<input class="search-button" type="submit" value="I'm Feeling Lucky">
-    </div>
-</form>
 
-<nav> 
-    <ul>
-        <li><a href="#home">About</a></li>
-        <li><a href="#store">Store</a></li>
-        <li style="float:right"><a href="#images">Images</a></li>
-        <li style="float:right"><a href="#gmail">Gmail</a></li>
-    </ul>
-</nav>
+        <!--Form-->
+        <form> 
+            <div> 
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <input class="search-button" type="submit" value="Google Search">
+                <input class="search-button" type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form>
 
-<footer id="footer">
-    <ul>
-        <li><a href="#advertising">Advertising</a></li>
-        <li><a href="#business">Business</a></li>
-        <li><a href="#howsearchworks">How Search Works</a></li>
-        <li><a href="#carbonneutral">Carbon neutral since 2007</a></li>
-        <li style="float: right;"><a href="privacy">Privacy</a></li>
-        <li style="float: right;"><a href="terms">Terms</a></li>
-        <li style="float: right;"><a href="settings">Settings</a></li>
-    </ul>
-</footer>
+
+
+        <!--Footer-->
+        <footer class="footer">
+            <div>
+                <ul class="footer_list">
+                    <li class="footer_item"><a href="#advertising">Advertising</a></li>
+                    <li class="footer_item"><a href="#business">Business</a></li>
+                    <li class="footer_item"><a href="#howsearchworks">How Search Works</a></li>
+                    <li class="footer_item"><a href="#carbonneutral">Carbon neutral since 2007</a></li>
+                </ul>
+            </div>
+            <div>   
+                <ul class="footer_list">
+                    <li class="footer_item--right"><a href="privacy">Privacy</a></li>
+                    <li class="footer_item--right"><a href="terms">Terms</a></li>
+                    <li class="footer_item--right"><a href="settings">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>

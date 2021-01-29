@@ -7,19 +7,25 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
-.img-google {
+.image-google {
     width: 275px;
     display: block;
     margin: 185px auto auto;
     max-width: 100%;
     height: auto;
+    
   }
-#gitlink {
-   
+.image-git {
     width: 40px;
     height: 40px;
     margin: 10px;
     padding: 4px;
+    border-radius: 2px;
+}
+
+.grayhover:hover {
+background-color: rgba(95,99,104,0.24);
+border-radius: 99%;
 }
 
  form {

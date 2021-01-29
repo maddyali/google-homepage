@@ -1,3 +1,4 @@
+/* quick reset*/
 * {
     margin: 0;
     padding: 0;
@@ -7,27 +8,38 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
-.image-google {
+.logo {
     width: 275px;
     display: block;
     margin: 185px auto auto;
     max-width: 100%;
     height: auto;
-    
   }
+
+  /* profile picture */ 
 .image-git {
     width: 40px;
     height: 40px;
     margin: 10px;
     padding: 4px;
-    border-radius: 2px;
 }
 
 .grayhover:hover {
 background-color: rgba(95,99,104,0.24);
-border-radius: 99%;
+border-radius: 100%;
 }
 
+.image_description {
+  background:rgba(60,64,67,0.90);
+  color:white;
+  visibility: hidden;
+}
+
+.grayhover:hover + .image_description {
+    visibility: visible;
+    opacity: 1;
+}
+/* google search bar */
  form {
      text-align: center;
  }

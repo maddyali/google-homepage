@@ -30,6 +30,10 @@ border-radius: 100%;
 }
 
 .image_description {
+width: 140px;
+height: 50px;
+padding: 5px;
+margin-left: 80px;
   background:rgba(60,64,67,0.90);
   color:white;
   visibility: hidden;
@@ -39,6 +43,7 @@ border-radius: 100%;
     visibility: visible;
     opacity: 1;
 }
+
 /* google search bar */
  form {
      text-align: center;

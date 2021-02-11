@@ -1,71 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is a replica of the Google Search webpage">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <title>Google</title>
-    </head>
 
-    <body>
-        <div class="page">
-            <div class="page_container">
-        <!--Navigation-->
-        <nav class="nav">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a replica of the Google Search webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Google</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="page_container">
+            <!--Navigation-->
+            <nav class="nav flex1">
                 <ul class="nav_list">
-                        <li class="nav_item"><a class="nav_link" href="#home">About</a></li>
-                        <li class="nav_item"><a class="nav_link" href="#store">Store</a></li>
-                        <li class="nav_item"><a class="nav_link" href="#images">Images</a></li>
-                        <li class="nav_item"><a class="nav_link" href="#gmail">Gmail</a></li>
-                        <li class="nav_item--git">
-                            <a class="nav_link" href="https://github.com/maddyali" target="_blank"> 
-                                <img class="image-git grayhover" src="img/IMG_1746.png" alt="image of the website author">
-                               <!-- <p class="image_description">Github Account<br>Maddy<br>maddyoali@gmail.com</p> -->
-                            </a>
-                    </li> 
+                    <li class="nav_item"><a class="nav_link" href="#home">About</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#store">Store</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#images">Images</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#gmail">Gmail</a></li>
+                    <li class="nav_item--git">
+                        <a class="nav_link" href="https://github.com/maddyali" target="_blank">
+                            <img class="image-git grayhover" src="img/IMG_1746.png" alt="image of the website author">
+                            <!-- <p class="image_description">Github Account<br>Maddy<br>maddyoali@gmail.com</p> -->
+                        </a>
+                    </li>
                 </ul>
-        </nav>
-        
-        <!--Main-->
+            </nav>
 
-        <!--Image-->
-        <img class="logo" src="img/Google-img.png" alt="Google logo"> 
+            <!--Main-->
 
-
-        <!--Form-->
-        <form> 
-            <div> 
-                <input type="text">
-            </div>
-            <br>
-            <div>
-                <input class="search-button" type="submit" value="Google Search">
-                <input class="search-button" type="submit" value="I'm Feeling Lucky">
-            </div>
-        </form>
+            <!--Image-->
+            <img class="logo flex2" src="img/Google-img.png" alt="Google logo">
 
 
+            <!--Form-->
+            <form class="flex3">
+                <div>
+                    <input type="text">
+                </div>
+                <br>
+                <div>
+                    <input class="search-button" type="submit" value="Google Search">
+                    <input class="search-button" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
 
-        <!--Footer-->
-        <footer class="footer">
-            <div>
+
+
+            <!--Footer-->
+            <footer class="footer flex4">
+                <div class="flexitem box1">
+                    <ul class="footer_list">
+                        <li class="footer_item"><a class="footer_link" href="#advertising">Advertising</a></li>
+                        <li class="footer_item"><a class="footer_link" href="#business">Business</a></li>
+                        <li class="footer_item"><a class="footer_link" href="#howsearchworks">How Search works</a></li>
+                    </ul>
+                </div>
+                <div class="flexitem box2">
+                    <ul class="footer_list">
+                        <li class="footer_item"><a class="footer_link" href="#carbonneutral">Carbon neutral since 2007</a></li>
+                    </ul>
+                </div>
+            <div class="flexitem box3">
                 <ul class="footer_list">
-                    <li class="footer_item"><a href="#advertising">Advertising</a></li>
-                    <li class="footer_item"><a href="#business">Business</a></li>
-                    <li class="footer_item"><a href="#howsearchworks">How Search Works</a></li>
-                    <li class="footer_item"><a href="#carbonneutral">Carbon neutral since 2007</a></li>
+                    <li class="footer_item"><a class="footer_link" href="privacy">Privacy</a></li>
+                    <li class="footer_item"><a class="footer_link" href="terms">Terms</a></li>
+                    <li class="footer_item"><a class="footer_link" href="settings">Settings</a></li>
                 </ul>
             </div>
-            <div>   
-                <ul class="footer_list">
-                    <li class="footer_item--right"><a href="privacy">Privacy</a></li>
-                    <li class="footer_item--right"><a href="terms">Terms</a></li>
-                    <li class="footer_item--right"><a href="settings">Settings</a></li>
-                </ul>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
-    </div>
-    </body>
+</body>
+
 </html>

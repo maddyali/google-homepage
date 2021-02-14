@@ -13,7 +13,7 @@ body {
     flex-flow: column wrap;
 }
 
-.page_container {
+.page {
     position: relative;
     min-height: 100vh;
 }
@@ -29,7 +29,6 @@ body {
 }
 
 .nav_list {
-    border: 8px solid black;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -49,7 +48,7 @@ body {
 
 /* link effects */
 
-a:visited {
+a:visited:active {
     color: #609;
 }
 a:hover {
@@ -121,6 +120,7 @@ border-radius: 100%;
 
 
 /* Footer */
+
 
 .footer {
     position: absolute;

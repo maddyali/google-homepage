@@ -51,21 +51,39 @@ body {
     margin: 0px 0px 1px 5px;
     color: rgba(0,0,0,0.87);
 }
+
+.nav_link-right {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 0px 1px 5px;
+    color: rgba(0,0,0,0.87);
+}
 .nav_item:nth-child(1) {
     margin-left: 10px;
 }
 
-#appsicon {
-    border: 1px solid red;
+/* google apps icon */
+.iconcontainer {
+    height: 35px;
+    width: 35px;
+}
+.appsicon {
     height: 25px;
     width: 25px;
+    position: relative;
+    top: 4px;
+    right: 14px;
+    margin-left: 20px;
     fill: #5f6368;
     fill-opacity: 1;
+    cursor: pointer;
 }
-#icons {
-    border: 1px solid pink;
 
+.nav_item:nth-child(4) {
+    margin-right: 10px;
 }
+
 
 /* link effects */
 
@@ -76,7 +94,7 @@ a:hover {
     text-decoration: underline;
 }
 
-a:any-link {
+a {
     cursor: pointer;
 }
 
@@ -90,15 +108,15 @@ a:any-link {
 
   /* profile picture */ 
 .image-git {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     padding: 4px;
-    margin-top: 5px;
+    margin: 2px;
 }
 
-.grayhover:hover {
+.grayhover:hover, .iconcontainer:hover {
 background-color: rgba(95,99,104,0.24);
-border-radius: 100%;
+border-radius: 20px;
 }
 
 .image_description {

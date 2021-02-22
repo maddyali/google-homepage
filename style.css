@@ -131,17 +131,30 @@ border-radius: 20px;
 }
 
 /* google search bar */
- form {
-     text-align: center;
-     width: auto;
- } 
+ 
+ .form-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .search-container {
+     display: flex;
+     height: 46px;
+     width: 584px;
+     border: 1px solid #dfe1ef;
+     border-radius: 24px;
+     padding: 10px 100px;
+ }
+ /*
  .search {
      width: 550px;
      margin: 20px;
      padding: 10px 100px;
      border-radius: 24px;
-     border: 1px solid #dfe1e5;
- }
+     border: 1px solid red;
+ }*/
 
  .se-eff:hover{
     box-shadow: 0 1px 6px rgba(32,33,36,.28);

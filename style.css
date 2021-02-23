@@ -166,6 +166,12 @@ border-radius: 20px;
     outline: none;
     cursor: text;
  }
+ .mic-icon {
+    height: 24px; 
+    width: 24px;
+    margin-left: 5px;
+    cursor: pointer;
+ }
 
  .se-eff:hover{
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
@@ -185,6 +191,7 @@ border-radius: 20px;
      padding: 5px 16px;
 
  }
+ 
 
 .search-button:hover {
     cursor: pointer;

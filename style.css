@@ -147,7 +147,14 @@ border-radius: 20px;
      width: 584px;
      border: 1px solid #dfe1ef;
      border-radius: 24px;
-     padding: 0 40px;
+     padding: 0 15px;
+ }
+ .search-icon {
+    height: 20px; 
+    width: 20px;
+    margin-right: 5px;
+    font-size: 14px;
+    fill: #9aa0a6;
  }
  
  .search {

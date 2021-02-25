@@ -7,27 +7,15 @@
 
 body {
     height: 100%;
+    width: 100%;
     font-family: Arial, sans-serif;
     font-size: 100%;
     display: flex;
     flex-flow: column wrap;
 }
 
-/*
-.page {
-    position: relative;
-    min-height: 100vh;
-    border: 1px solid purple;
-}
 
-
-.content-wrap {
-    height: 100%;
-    padding-bottom: 2.5rem;
-    border: 1px solid pink;
-} 
-/*
-/* Nav bar */
+/* Nav bar */ 
 .nav {
     width: 100%;
     padding: 6px;
@@ -63,7 +51,7 @@ body {
     margin-left: 10px;
 }
 
-/* google apps icon */
+/* Nav bar - app icon */
 .iconcontainer {
     height: 35px;
     width: 35px;
@@ -85,29 +73,9 @@ body {
 }
 
 
-/* link effects */
+/* Nav bar - profile icon */
 
-a:visited:active {
-    color: #609;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-a {
-    cursor: pointer;
-}
-
-.logo {
-    width: 275px;
-    display: block;
-    margin: 185px auto auto;
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* profile picture */ 
-.image-git {
+  .image-git {
     width: 42px;
     height: 42px;
     padding: 4px;
@@ -130,10 +98,24 @@ border-radius: 20px;
     opacity: 1;
 }
 
+
+
+/* Google logo */
+
+.logo {
+    width: 275px;
+    display: block;
+    margin: 185px auto auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
 /* google search bar */
  
  .form-container {
-    border: 1px solid red;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +125,7 @@ border-radius: 20px;
  .search-container {
      display: flex;
      align-items: center;
-     height: 46px;
+     height: 48px;
      width: 584px;
      border: 1px solid #dfe1ef;
      border-radius: 24px;
@@ -167,8 +149,8 @@ border-radius: 20px;
     cursor: text;
  }
  .mic-icon {
-    height: 24px; 
-    width: 24px;
+    height: 25px; 
+    width: 25px;
     margin-left: 5px;
     cursor: pointer;
  }
@@ -177,10 +159,10 @@ border-radius: 20px;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
  }
 
- 
  .button-container {
      padding: 15px;
  }
+
  .search-button {
      text-align: center;
      background-color: #f8f9fa;
@@ -189,13 +171,13 @@ border-radius: 20px;
      height: 36px;
      margin: 11px 4px;
      padding: 5px 16px;
-
  }
  
 
 .search-button:hover {
     cursor: pointer;
 }
+
 /* Footer */
 
 
@@ -203,7 +185,6 @@ border-radius: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 3rem;
     background-color:#f2f2f2;
     display: flex;
     flex-flow: row nowrap;
@@ -222,6 +203,7 @@ border-radius: 20px;
     list-style: none;
     text-decoration: none;
     white-space: nowrap;
+    border: 1px solid red;
 }
 
 .footer_link {
@@ -232,12 +214,42 @@ border-radius: 20px;
 }
 
 .carbon {
-    margin-right: 6rem;
-    padding-left: 0;
+   padding: 0;
 }
 
 /* Leaf style*/
 .leaf {
     height: .90rem;
     margin: 1px;
+}
+
+/* link effects */
+
+a:visited:active {
+    color: #609;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1200px){
+    .footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer_list:nth-child(2){
+        width: 100%;
+        order: -1;   
+    }
+    .firstfooter > li {
+       margin: 0 auto;
+    }
 }

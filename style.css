@@ -199,7 +199,7 @@ border-radius: 20px;
     flex-flow: row nowrap;
     align-items: center;
     padding: 15px;
-    margin: 0 5px;
+    margin: 0 20px;
     list-style: none;
     text-decoration: none;
     white-space: nowrap;
@@ -213,6 +213,9 @@ border-radius: 20px;
     padding: 15px;
 }
 
+.firstfooter {
+    margin-right: 100px;
+}
 .carbon {
    padding: 0;
 }
@@ -248,6 +251,10 @@ a {
     .footer_list:nth-child(2){
         width: 100%;
         order: -1;   
+    }
+
+    .firstfooter {
+        margin: 0;
     }
     .firstfooter > li {
        margin: 0 auto;
